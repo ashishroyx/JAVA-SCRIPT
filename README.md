@@ -1,11 +1,16 @@
 # JAVA-SCRIPT
 It has some of my practice projects
 
-*basic project for changing background color by clicking in button*
+*CHANGE BACKGROUND COLOUR*
 =>project1.html
 =>colorchanger.js
 
 *BMI CALCULATOR*
 =>p2.html
 =>p2.js
+
+*GUESS THE NUMBER GAME*
+=>p3.html
+=>p3.css
+=>p3.js
 
