@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMI CALCULATOR</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .navbar {
+            display: flex;
+            background-color: black;
+            align-content: center;
+            justify-content: center;
+            padding: 16px;
+
+        }
+        .button{
+            padding: 20px;
+            background-color:beige;
+            border-radius: 50px;
+        
+        }
+        .form{
+            display: flex;
+            justify-content: center;
+            align-content: center;
+            align-items: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="navbar">
+        <nav>
+            <button class="button"><a href="https://www.linkedin.com/in/ashish-kumar-roy-5a9575304/"
+                    style=" list-style: none; text-decoration: none;">LINKED IN</a></button>
+            <button class="button"><a href="https://x.com/royashishx"
+                    style=" list-style: none; text-decoration: none;">X</a></button>
+
+
+        </nav>
+    </div>
+    <div class="main">
+        <h1 style="justify-content: center; display: flex; padding: 43px;">BMI CALCULATOR</h1>
+        <form>
+            <p style="justify-content: center; display: flex; padding: 3px;">enter you height(in CM) : <input type="text" name="" id="height"></p>
+            <p style="justify-content: center; display: flex; padding: 15px;">enter you weight(in kg) : <input type="text" name="" id="weight"></p>
+            
+            <button style="justify-content: center; display: flex; padding: 15px ;align-items: center; margin:auto">calculate</button>
+            <div id="result" style="justify-content: center; display: flex; padding: 3px;"></div>
+            <div class="guide">
+                <h2 style="justify-content: center; display: flex; padding: 3px;">GUDIE FOR BMI</h2>
+                <p style="justify-content: center; display: flex; padding: 3px;">(BMI > 24) overweight</p>
+                <p style="justify-content: center; display: flex; padding: 3px;">(BMI < 18) underweight</p>
+                <p style="justify-content: center; display: flex; padding: 3px;">(18 > BMI > 24) overweight</p>
+            </div>
+        </form>
+    </div>
+</body>
+<script src="p2.js"></script>
+
+</html>
