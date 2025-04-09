@@ -1,0 +1,8 @@
+// let mydate = new Date("03-24-2025")
+
+// console.log(mydate.getTime())
+
+let mytime = Date.now()
+
+console.log(Math.floor(mytime/1000));
+
