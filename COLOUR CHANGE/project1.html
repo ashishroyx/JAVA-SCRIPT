@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>colour change buttons</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+
+        .navbar{
+            display: flex;
+            background-color: black;
+            align-content:center;
+            justify-content: center;
+            padding: 16px;
+
+        }
+
+        .button{
+            padding: 20px;
+            background-color:beige;
+            border-radius: 50px;
+        
+        }
+        .color{
+        
+            justify-content: center;
+            align-items: center;
+            display: flex;
+            align-content: center;
+            gap: 20px;
+        }
+
+        .button2{
+            height: 50px;
+            width: 50px;
+
+        }
+        #blue{
+            background-color: blue;
+        }
+        #green{
+            background-color:green;
+        }
+        #yellow{
+            background-color:yellow;
+        }
+        #brown{
+            background-color: brown;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="navbar">
+        <nav>
+            <button class="button"><a href="https://www.linkedin.com/in/ashish-kumar-roy-5a9575304/" style=" list-style: none; text-decoration: none;">LINKED IN</a></button>
+            <button class="button"><a href="https://x.com/royashishx" style=" list-style: none; text-decoration: none;">X</a></button>
+            
+         
+        </nav>
+    </div>
+
+    <h2 style="justify-content: center; display: flex; padding: 43px;" >COLOUR SCHEME CHANGER</h2>
+
+    <div class="color">
+        <span ><button class="button2" id="blue">1</button></span>
+        <span ><button class="button2" id="green">2</button></span>
+        <span ><button class="button2" id="yellow" >3</button></span>
+        <span ><button class="button2" id="brown" >4</button></span>
+    </div>
+    
+</body>
+<script src="colorchanger.js"></script>
+</html>
