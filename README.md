@@ -1,5 +1,5 @@
 # JAVA-SCRIPT
-It has some of my practice projects
+It has some of my practice projects basic to advance which will be posted weekly
 
 *CHANGE BACKGROUND COLOUR*
 =>project1.html
