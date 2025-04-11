@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Change bg color every second</title>
+</head>
+<body>
+    <h1>On Clicking Start will change colour every second</h1>
+    <div class="main">
+        <button id="s1"> start</button>
+        <button id="s2">end</button>
+    </div>
+</body>
+<script>
+    let change = function()
+    {
+        
+            const hex='0123456789ABCDEF'      
+            let color = '#'
+            for(let i=0 ; i < 6; i++)
+            {
+                color += hex[Math.floor(Math.random()*16)]
+            }
+
+            return color;
+        }
+
+        let lesgo
+        let changebgcolor = function(){
+
+         lesgo=setInterval(() => {
+                document.body.style.backgroundColor=change()
+                
+            }, 1000);
+            
+        }
+
+        let stopbgcolor=function(){
+            clearInterval(lesgo)
+        }
+        let start=document.querySelector('#s1')
+
+        start.addEventListener('click',changebgcolor)
+
+        let stop=document.querySelector('#s2')
+        stop.addEventListener('click',stopbgcolor)
+
+</script>
+</html>
